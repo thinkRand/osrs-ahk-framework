@@ -1,5 +1,5 @@
 # Nota aparte
-  Comenze este projecto hace varios años y como ya no recuedo exactamente como funciona le pedí a DeepSeck que preparara un analisis:
+  Comencé este projecto hace varios años y como ya no recuedo exactamente como funciona le pedí a DeepSeck que preparara un analisis:
 
 ## 📊 **Análisis Completo de las Características de Tu Framework AHK para OSRS**
 
