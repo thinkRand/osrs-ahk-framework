@@ -147,7 +147,3 @@
 20. **Funciones de Utilidad** (`Utilidades.ahk`)
     - Navegación circular de listas (`siguienteNumeroEnLista()`)
     - Framework para más utilidades
-
----
-
-¿Te gustaría que también traduzca los diagramas de flujo de trabajo o alguna otra parte específica del análisis?
