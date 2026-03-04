@@ -1,0 +1,157 @@
+inv y magic son iguales
+-TOMAR UNA FORO AL LIBRO DE SPEEL , ESO SERIVARA PARA DESPUES.
+
+-topleft punto(x884y394)(x->204) (abajo-y 311 ) color(0x405C6D) control(1088x705) window(0x270248)
+
+-PUNTOS-COlOR: 4, 6 0 9 puntos con su color en BGR.
+	p1:=punto(x887y406)(x->201) (abajo-y 299 ) color(0x36484F) control(1088x705) window(0x270248)
+	p2=punto(x887y518)(x->201) (abajo-y 187 ) color(0x405057) control(1088x705) window(0x270248)
+	
+	p3=punto(x886y646)(x->202) (abajo-y 59 ) color(0x36484F) control(1088x705) window(0x270248)
+	p4=punto(x1083y413)(x->5) (abajo-y 292 ) color(0x36484F) control(1088x705) window(0x270248)
+	
+	p5=punto(x1084y537)(x->4) (abajo-y 168 ) color(0x405057) control(1088x705) window(0x270248)
+	p6=punto(x1083y646)(x->5) (abajo-y 59 ) color(0x36484F) control(1088x705) window(0x270248)
+
+-COLOR BASE.punto(x999y413)(x->89) (abajo-y 292 ) color(0x26323B) control(1088x705) window(0x270248)
+
+-MARGEN INTERNO ARRIBA.
+	-puntodeprimeracelda=punto(x906y401)(x->182) (abajo-y 304 ) color(0x29353E) control(1088x705) window(0x270248)
+
+-MARGEN INTERNO IZQUIERDO
+	-puntodeprimeracelda=punto(x896y407)(x->192) (abajo-y 298 ) color(0x29353E) control(1088x705) window(0x270248)
+-CELDA MARGEN IZQUIERDO
+	2
+-CELDA MARGEN ARRIBA
+		0
+-CELDA ANCHO
+	24
+-CELDA ALTO
+	24
+-CANTIDAD DE CELDAS
+
+-NOMBRE SPELL POR POSICION:buscar en wiki
+	1:lumbrige Home Teleport
+	2:Wind Strike
+	3:Confuse
+	4:Enchant Crossbow Bolt (Opal)
+	
+	5:Water Strike
+	6:Lvl-1 Enchant-safiro
+	7:Earth Strike
+	8:Weaken
+	
+	9:	Fire Strike
+	10:Bones to Bananas
+	11:Wind Bolt
+	12:Curse
+	
+	13:Bind
+	14:	Low Level Alchemy
+	15:Water Bolt
+	16:Varrock Teleport
+	
+	17:Lvl-2 Enchant-esmeralda
+	18:Earth Bolt
+	19:Lumbridge Teleport
+	20:Telekinetic Grab
+	
+	21:Fire Bolt
+	22:Falador Teleport
+	23:Crumble Undead
+	24:Teleport to House
+	
+	25:Wind Blast
+	26:Superheat Item
+	27:Camelot Teleport
+	28:Water Blast
+	
+	29:Lvl-3 Enchant -ruby
+	30:Iban Blast
+	31:Snare
+	32:Magic Dart
+	
+	33:Ardougne Teleport
+	34:Earth Blast
+	35:High Level Alchemy
+	36:Charge Water Orb
+	
+	37:Lvl-4 Enchant -diamond
+	38:Watchtower Teleport
+	39:Fire Blast
+	40:Charge Earth Orb
+	
+	41:Bones to Peaches
+	42:Saradomin Strike
+	43:Claws of Guthix
+	44:Flames of Zamorak
+	
+	45:Trollheim Teleport
+	46:Wind Wave
+	47:	Charge Fire Orb
+	48:Ape Atoll Teleport
+	
+	49:Water Wave
+	50:Charge Air Orb
+	51:Vulnerability
+	52:Lvl-5 Enchant -dragonstone
+	
+	53:Kourend Castle Teleport
+	54:Earth Wave
+	55:Enfeeble
+	56:Teleother Lumbridge
+	
+	57:Fire Wave
+	58:Entangle
+	59:Stun
+	60:Charge
+	
+	61:Wind Surge
+	62:Teleother Falador
+	63:Water Surge
+	64:Tele Block
+	
+	65:Teleport to Bounty Target
+	66:	Lvl-6 Enchant -onyx
+	67:Teleother Camelot
+	68:Earth Surge
+	
+	69:Lvl-7 Enchant -zenyte
+	70:Fire Surge
+	
+	
+	
+	
+	
+-FIJA5ME SI EN CADA CELDA DE SPELL HAY UN COLOR EN EL CENTRO O A LOS LADOS. EL OBJETIVO ES NOTAR COMO MAPEAR 
+LOS SPELL CON LA FUNCION PARA CREAR LPC(Lista punto-color) DE CELDAS.
+
+libros:
+	The standard spellbook, also known as the modern magic spellbook
+		-7 columnas
+		-10 filas
+		70 spells
+		
+		
+		
+		
+		
+	Ancient Magics spellbook
+	-4 columnas
+	-7 filas
+	26 spells
+	
+	
+	
+	The Lunar spellbook
+	-5 columnas
+	-9 filas
+	45 spells
+	
+	
+	
+	
+	The Arceuus spellbook 
+	-4 columnas
+	-9 filas
+	36 spells

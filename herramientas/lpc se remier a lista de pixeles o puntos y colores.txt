@@ -1,0 +1,1 @@
+es un mapeo de puntos y colores, se toman 12 o 9 colore de cada celda del inventario y leugo se anota manualmente a que mapa corresponde cada item

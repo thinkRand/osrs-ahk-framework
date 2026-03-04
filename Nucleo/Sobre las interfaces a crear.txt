@@ -1,0 +1,61 @@
+;El objetivo es diseñar todas las funciones que pueda acceder a la informacion de la interface. Esta sera usada por otras funciones para definir operaciones.
+
+/*
+	debo incluir solo datos de las interfaces como :
+		-las posiciones relativas a la ventana:
+			constante x , la posicion relativas a la ventana no cambian, lo que puede cambiar es la posicion de la ventana , pero eso debe ser manejado por el ENTORNO
+			constante y
+			
+		-los identificadoes
+		constante	nombre 
+		constante id:
+		
+		-las caracteristicas utiles:
+		color de la base, no de los componentes
+		constante margen
+		constante width
+		constante heigth
+		
+		-Listar los componentes
+			constante componentes[]
+		;debo identifcar las variables que tiene una interface;  cuales son dinamicas (necesitan actualisacion constante porque cambian con el tiempo) y cuales son constantes(no cambian con el tiempo)
+		
+la interface cliente esta compuesta de las siguientes subInterfaces
+	-InterfaceGlobalContenedora
+			_BarraChat:
+				_Public, para escribir msg
+				_Trade, para aceptar o hacer trade
+				_Game, para leer msj del juego (you has mine some rock!)
+			_BarraOpciones
+				1_CombatOptions
+				2_Skills
+				3_QuestList
+				4_Inventory
+					-abierto/cerrado
+					-todas las casillas permitidas llenas
+					-celdas bloqueadas
+				5_WornEquipment
+				6_Prayer	
+				7_Magic
+				8_FriendList
+				9_AccountManagement
+				10_ClanChat
+				11_Options
+				12_Emotes
+				13_MusicPlayer
+				
+				
+			_MiniMapa
+				_CerrarRS
+				_Brujula
+				_MinitorEXP
+				_Vida
+				_Prayer
+				_Energia
+				_HabilidadArma
+
+La interface principal es la interface global contenedora, esta contiene la parte visible de runescape, en ella se pueden encontrar todas las demas interfaces utiles.
+
+
+
+*/
